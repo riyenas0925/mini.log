@@ -89,7 +89,9 @@ const Bio = () => {
   const sequence = [
     { content: "안녕하세요! " },
     { content: 500 },
-    { content: "개발자 강동민입니다." },
+    { content: "개발자 " },
+    { content: 300 },
+    { content: "강동민입니다." }
   ];
 
   return (
@@ -101,7 +103,6 @@ const Bio = () => {
             sequence={sequence}
             typeSpeed='80'
             cursorColor='gray'
-            cursorThickness='0.15'
             cursorPadding='0.2'
           />
         </Author>
