@@ -11,7 +11,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa"
 
-import { siteUrl, description, author, links, introduce } from "../../../blog-config"
+import { siteUrl, description, author, links } from "../../../blog-config"
 
 import { Typing, TypingStep } from "typing-effect-reactjs";
 
@@ -86,13 +86,6 @@ const Link = ({ link, children }) => {
 
 const Bio = () => {
   const { github, kaggle, instagram, facebook, linkedIn, email, etc } = links
-  const sequence = [
-    { content: "안녕하세요! " },
-    { content: 500 },
-    { content: "개발자 " },
-    { content: 300 },
-    { content: "강동민입니다." }
-  ];
 
   return (
     <BioWrapper id="bio">
@@ -100,10 +93,17 @@ const Bio = () => {
       <div>
         <Author>
           <TypingStep
-            sequence={sequence}
-            typeSpeed='80'
+            sequence={[
+              { content: "안녕하세요! " },
+              { content: 500 },
+              { content: "개발자 " },
+              { content: 300 },
+              { content: "@" + author },
+              { content: "입니다." },
+            ]}
+            typeSpeed={80}
             cursorColor='gray'
-            cursorPadding='0.2'
+            cursorPadding={0.2}
           />
         </Author>
         <Description>{description}</Description>

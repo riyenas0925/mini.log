@@ -1,6 +1,5 @@
 module.exports = {
   title: "mini.log",
-  introduce: "안녕하세요! 개발자 강동민입니다.",
   description: "몰입의 즐거움과 경험의 공유를 지향하는 개발을 하고 있습니다.",
   author: "mini",
   siteUrl: "https://blog.riyenas.dev",
