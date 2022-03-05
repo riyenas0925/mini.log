@@ -10,14 +10,6 @@ module.exports = {
     siteUrl,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingId: [
-          `${gtag}`,
-        ],
-      },
-    },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-robots-txt`,
     {
@@ -183,6 +175,17 @@ module.exports = {
             match: "^/blog/",
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          gtag,
+        ],
+        pluginConfig: {
+          head: false,
+        },
       },
     },
   ],
