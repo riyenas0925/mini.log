@@ -7,6 +7,7 @@ const SEO = ({ title, description, url }) => {
     <Helmet>
       <title>{title}</title>
       <meta name="naver-site-verification" content="174f75f02a460b0a118dac9de26fa60b730ae971" />
+      <meta name="google-site-verification" content="sfDLgYhkmE7DQh8cC0D0MAbpxHBvQfFFpzzhtgO-cgU" />
       <meta property="og:url" content={url} />
       <meta property="og:title" content={title} />
       <meta property="og:image" content={`${siteUrl}/og-image.png`} />
