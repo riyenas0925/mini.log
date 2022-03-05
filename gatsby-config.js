@@ -183,9 +183,6 @@ module.exports = {
         trackingIds: [
           gtag,
         ],
-        pluginConfig: {
-          head: false,
-        },
       },
     },
   ],
