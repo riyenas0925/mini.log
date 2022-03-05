@@ -1,5 +1,5 @@
 export const initialState = {
-  theme: "light",
+  theme: "dark",
 }
 
 // action type 정의
