@@ -5,7 +5,6 @@ date: 2021-01-18
 update: 2021-01-18
 tags:
   - OpenSSL
-  - HTTPS
 ---
 
 ## HTTPS로 전환할 때 필요한 것들

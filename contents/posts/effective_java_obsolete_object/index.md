@@ -5,7 +5,7 @@ date: 2021-07-18
 update: 2021-07-18
 tags:
   - Effective Java
-  - 자바
+  - 학습 기록
 series: "Effective Java Study"
 ---
 

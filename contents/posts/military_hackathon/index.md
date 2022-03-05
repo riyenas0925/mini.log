@@ -1,12 +1,11 @@
 ---
-title: "군장병 공개SW 온라인 해커톤"
-description: "2020 군장병 공개SW 온라인 해커톤 회고"
+title: "군장병 공개SW 온라인 해커톤 회고"
+description: "군장병 공개SW 온라인 해커톤 회고"
 date: 2020-11-11
 update: 2020-11-11
 tags:
   - 회고
   - 해커톤
-  - 2020년
 series: "개발자의 글쓰기"
 ---
 
