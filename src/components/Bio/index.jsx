@@ -95,9 +95,7 @@ const Bio = () => {
           <TypingStep
             sequence={[
               { content: "안녕하세요! " }, { content: 500 },
-              { content: "개발자 " }, { content: 300 },
-              { content: "@" + "강동민" }, { content: 200 }, { content: -4 }, { content: 200 },
-              { content: "@" + author }, { content: 200 },
+              { content: "개발자 @" + author }, { content: 200 },
               { content: "입니다." },
             ]}
             typeSpeed={90}
