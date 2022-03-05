@@ -11,11 +11,11 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-gtag`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: `${gtag}`,
-        head: false,
-        anonymize: true,
+        trackingId: [
+          `${gtag}`,
+        ],
       },
     },
     `gatsby-plugin-catch-links`,
