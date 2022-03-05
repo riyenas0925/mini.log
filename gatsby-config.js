@@ -1,5 +1,5 @@
 const blogConfig = require("./blog-config")
-const { title, description, author, siteUrl } = blogConfig
+const { title, description, author, siteUrl, gtag } = blogConfig
 
 module.exports = {
   pathPrefix: "/gatsby-starter-hoodie",
@@ -10,6 +10,14 @@ module.exports = {
     siteUrl,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `${gtag}`,
+        head: false,
+        anonymize: true,
+      },
+    },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-robots-txt`,
     {
