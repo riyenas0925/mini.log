@@ -12,5 +12,5 @@ module.exports = {
     repo: "riyenas0925/mini.log",
     type: "pathname",
   },
-  gtag: "G-1CC8M3K87K",
+  gtag: "G-CKTGSTC1FY",
 }
