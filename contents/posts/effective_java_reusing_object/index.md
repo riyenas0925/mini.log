@@ -6,7 +6,7 @@ update: 2021-07-17
 tags:
   - Effective Java
   - 학습 기록
-series: "Effective Java Study"
+series: "Test Code로 보는 Effective Java"
 ---
 
 많은 클래스가 하나 이상의 자원에 의존한다. 가령 맞춤법 검사기는 사전에 의존하는데 이런 클래스를 정적 유틸리티 클래스로 구현한 모습을 드물지 않게 볼 수 있다.

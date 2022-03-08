@@ -6,7 +6,7 @@ update: 2021-04-02
 tags:
   - Effective Java
   - 학습 기록
-series: "Effective Java Study"
+series: "Test Code로 보는 Effective Java"
 ---
 
 클라이언트가 클래스의 인스턴스를 얻는 방법은 public 생성자와 정적 팩터리 메서드를 이용해 얻을수 있다. 전통적인 방법인 public 생성자 방식이 아닌 정적 팩터리 메서드의 장점과 단점에 대해 알아보자.

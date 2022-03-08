@@ -6,7 +6,7 @@ update: 2021-04-04
 tags:
   - Effective Java
   - 학습 기록
-series: "Effective Java Study"
+series: "Test Code로 보는 Effective Java"
 ---
 
 ## 싱글턴

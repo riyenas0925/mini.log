@@ -6,7 +6,7 @@ update: 2021-04-05
 tags:
   - Effective Java
   - 학습 기록
-series: "Effective Java Study"
+series: "Test Code로 보는 Effective Java"
 ---
 
 ### 인스턴스화가 필요없는 클래스

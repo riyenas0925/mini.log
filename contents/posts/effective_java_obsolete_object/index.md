@@ -6,7 +6,7 @@ update: 2021-07-18
 tags:
   - Effective Java
   - 학습 기록
-series: "Effective Java Study"
+series: "Test Code로 보는 Effective Java"
 ---
 
 ## 생성자대신 문자열 리터럴

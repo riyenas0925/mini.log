@@ -6,7 +6,7 @@ update: 2021-09-02
 tags:
   - Effective Java
   - 학습 기록
-series: "Effective Java Study"
+series: "Test Code로 보는 Effective Java"
 ---
 
 ## 캐시
