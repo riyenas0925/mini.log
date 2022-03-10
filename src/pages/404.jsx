@@ -2,9 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 import Layout from "components/Layout"
-import SEO from "components/SEO"
-
-import { title, description, siteUrl } from "../../blog-config"
+import SEOExclude from "components/SEOExclude"
 
 const NotFound = styled.div`
   height: 800px;
@@ -32,7 +30,7 @@ const NotFound = styled.div`
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title={title} description={description} url={siteUrl} />
+    <SEOExclude/>
     <NotFound>
       <h2>404 ERROR</h2>
       <h3>Page Not Found X(</h3>
