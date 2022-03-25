@@ -77,6 +77,8 @@ module.exports = {
               wrapperStyle: "margin-bottom: 16px;",
               quality: 100,
               showCaptions: true,
+              backgroundColor: "transparant",
+              linkImagesToOriginal: false,
             },
           },
           {
