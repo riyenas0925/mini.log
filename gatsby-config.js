@@ -179,7 +179,7 @@ module.exports = {
               }
             `,
             output: `/rss.xml`,
-            title: `RSS Feed of ${title}`,
+            title: `${title}`,
             match: "^/blog/",
           },
         ],
