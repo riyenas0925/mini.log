@@ -67,7 +67,7 @@ cat /etc/hosts
 
 Kubernetes에서는 메모리 Swap을 사용하지않기 때문에 종료합니다.
 
-> [why k8s disable swap](https://www.evernote.com/shard/s360/client/snv?noteGuid=caa3d18e-4bda-4516-9ec9-1180999015e2&noteKey=46fa507ba5b78edc&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs360%2Fsh%2Fcaa3d18e-4bda-4516-9ec9-1180999015e2%2F46fa507ba5b78edc&title=191120%2Bwhy%2Bk8s%2Bdisable%2Bswap%253F)
+> [why k8s disable swap](https://www.evernote.com/shard/s360/client/snv?noteGuid=caa3d18e-4bda-4516-9ec9-1180999015e2&noteKey=46fa507ba5b78edc&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs360%2Fsh%2Fcaa3d18e-4bda-4516-9ec9-1180999015e2%2F46fa507ba5b78edc&title=191120%2Bwhy%2Bk8s%2Bdisable%2Bswap%253F)  
 > [Kubelet/Kubernetes should work with Swap Enabled](https://github.com/kubernetes/kubernetes/issues/53533)
 
 ```bash
@@ -169,7 +169,7 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
-## Kubernetes CNI(Calico) 적용
+### Kubernetes CNI(Calico) 적용
 
 쿠버네티스 컨테이너 사이의 통신을 위해 Calico를 설치합니다.
 > CNI는 Flannel, weaveNet, Calico 등이 있습니다. 여기서는 Calico로 설치를 진행합니다.
@@ -180,7 +180,7 @@ curl https://projectcalico.docs.tigera.io/manifests/calico.yaml -o calico.yaml
 
 calico.yaml에 설정되어 있는 기본 IP 대역은 192.168.0.0/16으로 설정되어있기 때문에 이를 변경해줘야 합니다.
 
-아래의 IP 대역을 클러스터 초기화때 설정한 IP 대역으로 변경합니다.
+주석처리된 부분을 해제하고 클러스터 초기화때 설정한 IP 대역으로 변경합니다.
 
 ```bash
 vi calico.yaml
