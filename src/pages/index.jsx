@@ -47,7 +47,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+        sort: { fields: [frontmatter___date], order: DESC }
+        filter: { frontmatter: { tags: { nin: ["학습 기록"] } } }
+      ) {
       group(field: frontmatter___tags) {
         fieldValue
         totalCount
