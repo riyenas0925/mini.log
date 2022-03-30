@@ -4,7 +4,7 @@ description: "Artillery를 이용한 스트레스 테스트"
 date: 2021-03-08
 update: 2021-03-08
 tags:
-  - test
+  - Test
   - Infra
 ---
 

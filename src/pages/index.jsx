@@ -13,7 +13,8 @@ import VerticalSpace from "components/VerticalSpace"
 import { title, description, siteUrl } from "../../blog-config"
 
 const BlogIndex = ({ data }) => {
-  const posts = data.allMarkdownRemark.nodes
+  const allPosts = data.allMarkdownRemark.nodes
+  const posts = allPosts.filter(post => !post.frontmatter.tags.includes("학습 기록"))
   const tags = _.sortBy(data.allMarkdownRemark.group, ["totalCount"]).reverse()
 
   if (posts.length === 0) {
@@ -49,7 +50,6 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
-        filter: { frontmatter: { tags: { nin: ["학습 기록"] } } }
       ) {
       group(field: frontmatter___tags) {
         fieldValue
