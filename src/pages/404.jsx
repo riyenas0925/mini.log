@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 import Layout from "components/Layout"
-import SEOExclude from "components/SEOExclude"
+import SEOExclude from "components/SEO"
 
 const NotFound = styled.div`
   height: 800px;
