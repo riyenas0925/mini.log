@@ -75,8 +75,8 @@ sudo chown +x /usr/bin/docker
 sudo chmod +x /var/run/docker.sock
 ```
 
-![Jenkins%20Pi%2021ce5/Untitled.png](Jenkins%20Pi%2021ce5/Untitled.png)
+![](images/Untitled.png)
 
 이미지도 정상적으로 올라옵니다.
 
-![Jenkins%20Pi%2021ce5/Untitled%201.png](Jenkins%20Pi%2021ce5/Untitled%201.png)
+![](images/Untitled1.png)
