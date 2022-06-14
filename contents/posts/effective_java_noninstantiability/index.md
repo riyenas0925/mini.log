@@ -5,7 +5,7 @@ date: 2021-04-05
 update: 2021-04-05
 tags:
   - Effective Java
-  - 학습 기록
+  - log
 series: "Test Code로 보는 Effective Java"
 ---
 

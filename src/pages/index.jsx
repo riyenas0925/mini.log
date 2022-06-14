@@ -14,7 +14,7 @@ import { title, description, siteUrl } from "../../blog-config"
 
 const BlogIndex = ({ data }) => {
   const allPosts = data.allMarkdownRemark.nodes
-  const posts = allPosts.filter(post => !post.frontmatter.tags.includes("학습 기록"))
+  const posts = allPosts.filter(post => !post.frontmatter.tags.includes("log"))
   const tags = _.sortBy(data.allMarkdownRemark.group, ["totalCount"]).reverse()
 
   if (posts.length === 0) {
